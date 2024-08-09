@@ -1,0 +1,8 @@
+Create Schema
+
+CREATE DATABASE batch_schema;
+
+Create user
+
+create user 'batch_user' identified by 'batchuser';
+grant all on batch_schema.* to 'batch_user';
